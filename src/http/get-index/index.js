@@ -1,4 +1,4 @@
-let arc = require('@architect/functions')
+let arc = require("@architect/functions");
 
 /**
  * arc.proxy.public
@@ -7,9 +7,9 @@ let arc = require('@architect/functions')
  * - very configurable! documented here: https://arc.codes/guides/spa
  */
 exports.handler = arc.proxy.public({
-  plugins:  {
+  plugins: {
     html: [
-      '@architect/shared/layout'// layout is a custom plugin in src/shared
-    ],
+      "@architect/shared/layout" // layout is a custom plugin in src/shared
+    ]
   }
-})
+});
