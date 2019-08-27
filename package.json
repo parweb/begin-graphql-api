@@ -10,6 +10,7 @@
   "dependencies": {
     "@architect/architect": "^6.0.3",
     "@begin/data": "latest",
+    "arc": "^0.1.1",
     "eslint": "^6.2.2",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0",
