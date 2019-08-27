@@ -6,12 +6,12 @@
  * @param file.headers - Object, headers for the file
  * @param file.body - String, the file body
  */
-module.exports = function layout(key, {headers, body}) {
+module.exports = function layout(key, { headers, body }) {
   return {
     headers,
     body: html(body)
-  }
-}
+  };
+};
 
 function html(body) {
   return `<!doctype html>
@@ -26,5 +26,5 @@ function html(body) {
 <h1 class="center-text">GraphQL API</h1>
 ${body}
 </body>
-</html>`
+</html>`;
 }
